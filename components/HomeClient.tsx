@@ -118,17 +118,15 @@ export default function HomeClient() {
     </section>
      <section className="bg-slate-100 py-24">
   <MaxWidthWrapper className="flex flex-col items-center gap-16 sm:gap-32">
-    
-    {/* HEADLINE + IMAGE */}
+
     <div className="mt-2 tracking-tight text-center text-balance !leading-tight font-bold text-gray-900 flex flex-col text-5xl md:text-6xl lg:flex-row items-center gap-4 sm:gap-6">
       <h2>
         What our <span className="text-blue-900 relative px-2">customers 
         <Icons.underline className="hidden sm:block pointer-events-none absolute inset-x-0 -bottom-6 text-blue-800" /></span> say.
       </h2>
-      <img src={'/icons.png'} className="w-24 mt-5 lg:order-2 rounded-full" />
+      <img src={'/medwearicon.png'} className="w-24 mt-5 lg:order-2 rounded-full" />
     </div>
 
-    {/* TESTIMONIAL GRID */}
     <div className="mx-auto grid max-w-2xl grid-cols-1 px-4 lg:mx-0 lg:max-w-none lg:grid-cols-2 gap-y-16">
       <div className="flex flex-auto flex-col gap-4 lg:pr-8 xl:pr-20">
         <div className="flex gap-0.5 mb-2">
