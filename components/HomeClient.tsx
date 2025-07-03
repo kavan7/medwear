@@ -45,7 +45,7 @@ export default function HomeClient() {
   return (
     <section>
     <section>
-      <MaxWidthWrapper className="pb-24 pt-6 lg:grid lg:grid-cols-3 sm:pb-32 lg:gap-x-0 xl:gap-x-8 lg:pt-24 xl:pt-10 lg:pb-52">
+      <MaxWidthWrapper className=" pt-6 lg:grid lg:grid-cols-3  lg:gap-x-0 xl:gap-x-8 lg:pt-24 xl:pt-10 ">
         <div className="col-span-2 px-6 lg:px-0 lg:pt-4">
           <div className="relative mx-auto text-center lg:text-left flex flex-col items-center lg:items-start">
             <h1 className="relative w-fit tracking-tight text-balance mt-16 font-bold !leading-tight text-gray-900 text-5xl md:text-5xl lg:text-6xl">
