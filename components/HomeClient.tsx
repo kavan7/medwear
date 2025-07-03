@@ -6,6 +6,7 @@ import { Check, Star } from "lucide-react";
 import { Icons } from "./ui/Icons";
 import { IconUser } from "@tabler/icons-react";
 import Reviews from '@/components/Reviews'
+import PurchaseScreen from "@/components/Reviews";
 
 
 const slideData = [
@@ -179,7 +180,7 @@ export default function HomeClient() {
   </MaxWidthWrapper>
 
   <div className="pt-16">
-       <Reviews />
+       <PurchaseScreen/>
   </div>
 </section>
     </section>
