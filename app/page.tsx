@@ -8,9 +8,10 @@ export default async function Home() {
   const isAdmin = user?.email === process.env.ADMIN_EMAIL;
 
   const navItems = [
-    { name: "Products", link: "#features" },
-    { name: "About", link: "#pricing" },
+    { name: "About", link: "#about" },
+        { name: "FAQ", link: "faq" },
     { name: "Contact", link: "#contact" },
+    
   ];
 
   return (
